@@ -9,6 +9,7 @@ const Hero = () => {
         <p>
           Join unique interactive activities led by one-of-a-kind hosts—all
           without leaving home. New changesfor merge conflict test: DEV
+          without leaving home. New line to practice merge coflict
         </p>
       </div>
     </div>
