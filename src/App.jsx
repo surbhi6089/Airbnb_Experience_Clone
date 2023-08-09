@@ -7,7 +7,7 @@ import "./App.css";
 
 const App = () => {
   const card = Data.map((item) => {
-    return <Card key={item.id} item={item} newItem={item} />;
+    return <Card key={item.id} item={item} newItem={item} item3={item} />;
   });
   return (
     <div>
