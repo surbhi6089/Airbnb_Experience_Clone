@@ -5,24 +5,16 @@ import Card from "./Components/Card";
 import Data from "./Components/Data";
 import "./App.css";
 
-
 const App = () => {
-  const card = Data.map(item=>{
-    return (
-      <Card
-      key = {item.id}
-      item = {item}
-      />
-    )
-  })
+  const card = Data.map((item) => {
+    return <Card key={item.id} item={item} newItem={item} />;
+  });
   return (
     <div>
       <Header />
-      <div className="body"> 
+      <div className="body">
         <Hero />
-        <div className="card-section">
-          {card}
-        </div>
+        <div className="card-section">{card}</div>
       </div>
     </div>
   );
